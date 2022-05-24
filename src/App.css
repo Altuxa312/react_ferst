@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,46 @@
   to {
     transform: rotate(360deg);
   }
+} */
+header{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ margin: 0;
+ padding: 0;
+ top: 0;
+ height: 100px;
+ background-color: rgba(15, 16, 95, 0.233);
+ transition: 1s;
+}
+
+header:hover{
+  transition: 1s;
+  background-color: aliceblue;
+
+}
+header img{
+  width: 160px;
+}
+
+header a{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+a:hover{
+  transition: 0.3s;
+  color: red;
+}
+
+input{
+  text-align: center;
+  color: black;
+  background-color: rgba(22, 48, 71, 0.295);
+}
+
+section{
+  text-align: center;
 }
